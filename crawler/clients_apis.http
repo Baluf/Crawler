@@ -1,0 +1,12 @@
+### Send POST request with json body
+POST http://127.0.0.1:5000/crawl
+Content-Type: application/json
+
+{
+    "url": "https://www.google.com",
+    "notify": 9
+}
+
+### GET request with a header
+GET http://127.0.0.1:5000/crawl/status/289517a0-8303-488e-ac1b-ed1ebb59a2e7
+Accept: application/json
